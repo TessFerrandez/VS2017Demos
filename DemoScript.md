@@ -160,4 +160,34 @@ Supports NUnit, XUnit and MSTest
 1. change text on button to show live preview
 2. add new button or label underneath to show improved xaml intellisense
 
+## Coding styles ##
+
+1. Open .editorconfig i EditorImprovements
+2. Uncomment csharp_new_line_before_open_brace
+3. Rebuild
+4. Open Person and do Ctrl+K Ctrl+D 
+
+5. Uncomment dotnet_style...
+6. Rebuild
+7. Open Person.cs and see error on Age
+
 ## Other improvements ##
+
+Better javascript/typescript intellisense
+
+**Visual Studio Preview**
+
+App Insights Code Lens
+https://microsoft.github.io/almvm/labs/tfs/appinsights/
+
+Layer Diagram -> Dependency Validation Diagram
+
+Code Styles
+
+**Visual Studio Feedback**
+
+Pluralsight 
+
+Redgate
+
+**Web essentials 2017**
