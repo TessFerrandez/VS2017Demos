@@ -73,25 +73,25 @@ other ex: var x = 0xAB_CD_EF;
 2. Add case for Customer c when c.Age > 20
 3. Talk about order of cases
 
-    switch(p){
-        case Customer c when c.Age > 20;
-            break;
-        case Customer c:
-            break;
-        Case Employee e:
-            break;
-        default:
-            break;
-    }
+        switch(p){
+            case Customer c when c.Age > 20;
+                break;
+            case Customer c:
+                break;
+            Case Employee e:
+                break;
+            default:
+                break;
+        }
 
 ### Tuples ###
 1. Change signature and return
 
-    public (string First, string Last) ParseName(){
-        ...
-        return (firstName, lastName);
-    }
+        public (string First, string Last) ParseName(){
+            ...
+            return (firstName, lastName);
+        }
 
 2. Touple deconstruction
 
-    (string firstName, string lastName) = ParseName();
+        (string firstName, string lastName) = ParseName();
