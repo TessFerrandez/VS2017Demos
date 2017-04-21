@@ -61,3 +61,37 @@ Use Csharp7.cs file for this
 2. add _ to space it up 1_000_000; (can place them anywhere)
 other ex: var x = 0xAB_CD_EF;
 3. new binary literals... var b = 0001_0101_0011_1100;
+
+### Out variables ###
+1. Refactor in ParseOut to declare int inline
+
+### Null check allows throw ###
+1. Refactor in null check
+
+### Pattern matching in switch ###
+1. Add cases for Customer c and Employee e
+2. Add case for Customer c when c.Age > 20
+3. Talk about order of cases
+
+    switch(p){
+        case Customer c when c.Age > 20;
+            break;
+        case Customer c:
+            break;
+        Case Employee e:
+            break;
+        default:
+            break;
+    }
+
+### Tuples ###
+1. Change signature and return
+
+    public (string First, string Last) ParseName(){
+        ...
+        return (firstName, lastName);
+    }
+
+2. Touple deconstruction
+
+    (string firstName, string lastName) = ParseName();
