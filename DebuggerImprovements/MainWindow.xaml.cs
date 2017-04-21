@@ -31,7 +31,7 @@ namespace DebuggerImprovements
                     var openLog = File.Open(logFileName, FileMode.Open);
                     //TODO: Log stuff
                 }
-                catch
+                catch 
                 {
                     throw new FileNotFoundException($"Could not find file \'{logFileName}\'", inner);
                 }

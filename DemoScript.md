@@ -92,6 +92,72 @@ other ex: var x = 0xAB_CD_EF;
             return (firstName, lastName);
         }
 
-2. Touple deconstruction
+2. Tuple deconstruction
 
         (string firstName, string lastName) = ParseName();
+
+
+### Force c# 6 ###
+If you work with developers who stay in vs2015
+
+1. Go to **Project Properties/Build/Advanced/Language Version** 
+
+## XAML imporovements ##
+
+1. Set XamlImprovements project as startup and run it
+2. Add XAML while loading to show XAML edit and continue
+
+        <TextBlock Text="Hello" FontSize="24"/>
+
+## Live Test ##
+
+Project and Test project under TestImprovements
+
+1. Test / Run all tests -- back and forth workflow
+2. Turn on live testing and wait for it to kick in
+3. Talk about Fail, Pass, Miss
+4. Add Multiply method, show miss (since we dont have tests for that)
+5. Point out the missing line in Divide (test didnt cover it)
+6. Show Subtract (click on X), one passing and one failing test
+7. Fix the failing test
+
+Can pause if you do large refactorings
+Can exclude projects or files
+Test runner is synced up
+
+Supports NUnit, XUnit and MSTest
+
+## Debugging Improvements ##
+
+1. Set debuggerimprovements project as startup and run it
+
+### run to click ###
+1. Click 3 to break at breakpoint
+2. Click to run and note perftips as well (perftips came in 2015 but now match Diagnostic tools)
+
+### New exception dialog ### 
+1. Run scenario 1 - break at exception
+2. Show new exception dialog, exception settings and conditions
+
+### Null reference exceptions ###
+1. Run scenario 2 - break at null ref and show how it picks up nullref
+2. add exception filtering on inner catch
+
+        catch (FileNotFoundException ex) when (ex.FileName == "some file")
+
+### Attach and reattach ###
+1. Attach and show filter
+2. Re-attach
+
+## Xamarin ##
+
+### -- prepp -- ###
+1. Open XamarinApp project (make sure solution is rebuilt)
+2. Open XamarinApp/Views/AboutPage
+3. View/other windows/xamarin forms preview (Place side by side)
+
+### Xamarin forms previewer ###
+1. change text on button to show live preview
+2. add new button or label underneath to show improved xaml intellisense
+
+## Other improvements ##
