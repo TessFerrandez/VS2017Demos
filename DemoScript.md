@@ -51,6 +51,13 @@ Core Visual Studio is about as big as 2 notepads
 3. Remove and sort namespaces
 4. rightclick to rename namespaces
 
+## XAML imporovements ##
+
+1. Set XamlImprovements project as startup and run it
+2. Add XAML while loading to show XAML edit and continue
+
+        <TextBlock Text="Hello" FontSize="24"/>
+        
 ## New in C#7 ##
 
 Use Csharp7.cs file for this
@@ -101,13 +108,6 @@ other ex: var x = 0xAB_CD_EF;
 If you work with developers who stay in vs2015
 
 1. Go to **Project Properties/Build/Advanced/Language Version** 
-
-## XAML imporovements ##
-
-1. Set XamlImprovements project as startup and run it
-2. Add XAML while loading to show XAML edit and continue
-
-        <TextBlock Text="Hello" FontSize="24"/>
 
 ## Live Test ##
 
