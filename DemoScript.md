@@ -67,7 +67,7 @@ Use Csharp7.cs file for this
 1. var i = 10000000;
 2. add _ to space it up 1_000_000; (can place them anywhere)
 other ex: var x = 0xAB_CD_EF;
-3. new binary literals... var b = 0001_0101_0011_1100;
+3. new binary literals... var b = 0b0001_0101_0011_1100;
 
 ### Out variables ###
 1. Refactor in ParseOut to declare int inline
