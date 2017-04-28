@@ -6,6 +6,7 @@ namespace EditorImprovements
     public class CSharp7
     {
         public string Name { get; set; }
+        public int Number { get; set; }
 
         public void Literals()
         {
@@ -15,7 +16,10 @@ namespace EditorImprovements
         public void ParseOut(string numberString)
         {
             int i;
-            int.TryParse(numberString, out i);
+            if (int.TryParse(numberString, out i))
+            {
+                Number = i;
+            }
         }
 
         public void NullCheck(string name)

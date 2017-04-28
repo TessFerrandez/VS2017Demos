@@ -15,7 +15,7 @@ Core Visual Studio is about as big as 2 notepads
 3. Open files/folders without solution
 ### Lightweight Load ###
 1. Open the Demo Solution (loading time)
-2. Turn on lightweight load 
+2. Turn on lightweight load & remember to close all nodes
 3. Close and reopen
 
 ## Productivity and Refactoring ##
@@ -105,7 +105,7 @@ other ex: var x = 0xAB_CD_EF;
 
 
 ### Force c# 6 ###
-If you work with developers who stay in vs2015
+If you work with developers who stay in vs2015 OR your build server isn't updated yet
 
 1. Go to **Project Properties/Build/Advanced/Language Version** 
 
