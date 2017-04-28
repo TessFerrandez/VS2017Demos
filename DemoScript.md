@@ -104,6 +104,7 @@ other ex: var x = 0xAB_CD_EF;
         (string firstName, string lastName) = ParseName();
 
 
+
 ### Force c# 6 ###
 If you work with developers who stay in vs2015 OR your build server isn't updated yet
 
@@ -141,7 +142,9 @@ Supports NUnit, XUnit and MSTest
 
 ### Null reference exceptions ###
 1. Run scenario 2 - break at null ref and show how it picks up nullref
-2. add exception filtering on inner catch
+
+### Exception Filtering ###
+1. add exception filtering on inner catch
 
         catch (FileNotFoundException ex) when (ex.FileName == "some file")
 
@@ -163,7 +166,7 @@ Supports NUnit, XUnit and MSTest
 ## Coding styles ##
 
 1. Open .editorconfig i EditorImprovements
-2. Uncomment csharp_new_line_before_open_brace
+2. Uncomment csharp_new_line_before_open_brace to enforce new line after opening brace
 3. Rebuild
 4. Open Person and do Ctrl+K Ctrl+D 
 
