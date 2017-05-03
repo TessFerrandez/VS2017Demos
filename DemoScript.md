@@ -23,7 +23,8 @@ Core Visual Studio is about as big as 2 notepads
 ### Enhanced Navigation ###
 1. Bring up Go To with **Ctrl+,** and search for Person
 2. Filter (eg. buttons or t Person)
-3. Navigate to Person
+3. Show fuzzy search by searching on Pesron and Peson
+4. Navigate to Person
 ### Scope Identifiers ###
 1. Show Scope identifiers in Person/SaveAddressToFile
 2. Hover over the Scope identifiers
@@ -33,7 +34,7 @@ Core Visual Studio is about as big as 2 notepads
 1. Show Intellisense Filtering
 ### Class/File refactoring ###
 1. Create a new class in the Models Folder - clear the class file
-2. Copy Json from http://openweathermap.org/current (sample queries)
+2. Copy Json from http://openweathermap.org/current (sample queries) or weather.json
 3. Edit / Paste Special/JSON as Classes
 4. **Ctrl+.** to move the classes to separate files
 5. Rename the RootObject class and **Ctrl+.** to rename the file too
